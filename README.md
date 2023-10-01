@@ -23,7 +23,7 @@ In the login we can access using our email and password and register if we have 
 
 To see the functionalities and design of the project, follow the link below. 
 
-[![Login and Register](https://loginandacces.netlify.app/)]
+[Login and Register](https://loginandacces.netlify.app/)]
 
 
 ## GitHub 
