@@ -109,3 +109,38 @@ a{
     font-size: 15px;
     color: white;
 }
+
+.home-view{
+    display: flex;
+    background-color: #868484c8;
+    border-radius: 20px;
+    width: 80rem;
+    height: 38rem;
+}
+
+.homeview--nav{
+    display: flex;
+    color:red;
+    justify-content: flex-end;
+}
+
+
+.nav-button{
+    border: none;
+    background-color: rgb(158, 158, 155);
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.nav-button:hover{
+    border: none;
+    background-color: rgb(0, 13, 255);
+    color: #ffffffc8;
+}
+
+.nav-button:active{
+    border: none;
+    background-color: rgb(97, 82, 233);
+    color: #ffffffc8;
+}
