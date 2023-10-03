@@ -24,10 +24,10 @@ In the login we can access using our email and password and register if we have 
 - [x] Login with email and password, clean code
 - [x] Link from login to register
 - [x] Registration with name, email and password 
-- [] Link Register to login
-- [] Being able to access home after logging in
-- [] Form to change password
-- [] Form to change email
+- [ ] Link Register to login
+- [ ] Being able to access home after logging in
+- [ ] Form to change password
+- [ ] Form to change email
 
 ## Deployment and preview
 
