@@ -19,6 +19,16 @@ It allows us in the registry to create a user with:
 If you are already registered, it redirects us to the login with a small link.
 In the login we can access using our email and password and register if we have not already done so.
 
+## Things to do
+
+- [x] Login with email and password, clean code
+- [x] Link from login to register
+- [x] Registration with name, email and password 
+- [] Link Register to login
+- [] Being able to access home after logging in
+- [] Form to change password
+- [] Form to change email
+
 ## Deployment and preview
 
 To see the functionalities and design of the project, follow the link below. 
