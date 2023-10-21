@@ -4,180 +4,278 @@
     box-sizing: border-box;
 }
 
+@media (max-width:3000px) {
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-image: url(/background/background.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    max-width: 100%;
-    height: auto;
-    font-family: 'Oswald', sans-serif;
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-image: url(../app/background/background-pc.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        max-width: 100%;
+        height: auto;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        background-color: #070d4ab5;
+        height: 250px;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 29px -12px #000000bf;
+        justify-content: space-around;
+    }
+
+    .register-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        background-color: #070d4ab5;
+        height: 300px;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 29px -12px #000000bf;
+        justify-content: space-around;
+    }
+
+    .link {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .button-login,
+    .button-register {
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #1f0a7b;
+        color: #fefefe;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10px;
+    }
+
+    .button-login:hover,
+    .button-register:hover {
+        background-color: #523db1;
+        color: #fefefe;
+    }
+
+    .title {
+        font-family: 'Itim', cursive;
+        font-family: 'Press Start 2P', cursive;
+        font-style: bold;
+        color: #d8d8da;
+        padding: 15px 15px;
+    }
+
+    input {
+        width: 230px;
+        outline: none;
+        border: none;
+        color: #000000;
+        border-bottom: solid 1px #000000;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Inconsolata', monospace;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+
+    input::placeholder {
+        color: #3a3b3bd7;
+
+    }
+
+    .input-control input:focus {
+        outline: 0;
+    }
+
+    .input-control.success input {
+        border-color: #0bf876;
+    }
+
+    .input-control.error input {
+        border-color: #f80000;
+    }
+
+    .fa-solid {
+        padding-right: 10px;
+        font-size: 20px;
+        color: #f5f4f6;
+    }
+
+    p {
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+    a {
+        font-family: 'Inconsolata', monospace;
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .home-view {
+        display: flex;
+        background-color: #868484c8;
+        border-radius: 20px;
+        width: 80rem;
+        height: 38rem;
+    }
+
+    .homeview--nav {
+        display: flex;
+        color: #ff0000;
+        justify-content: flex-end;
+    }
 }
 
+@media (max-width:820px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-image: url(../app/background/background-movil.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        max-width: 100%;
+        height: auto;
+        font-family: 'Oswald', sans-serif;
+    }
 
-.login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    background-color: #070d4ab5;
-    height: 250px;
-    width: 350px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 29px -12px #000000bf;
-    justify-content: space-around;
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        background-color: #3a000eb3;
+        height: 250px;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 29px -12px #000000bf;
+        justify-content: space-around;
+    }
+
+    .register-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        background-color: #3a000eb3;
+        height: 300px;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 29px -12px #000000bf;
+        justify-content: space-around;
+    }
+
+    .link {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .button-login,
+    .button-register {
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #7d0c2f;
+        color: #fefefe;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10px;
+    }
+
+    .button-login:hover,
+    .button-register:hover {
+        background-color: #ae1a49;
+        color: #fefefe;
+    }
+
+    .title {
+        font-family: 'Itim', cursive;
+        font-family: 'Press Start 2P', cursive;
+        font-style: bold;
+        color: #d8d8da;
+        padding: 15px 15px;
+    }
+
+    input {
+        width: 230px;
+        outline: none;
+        border: none;
+        color: #000000;
+        border-bottom: solid 1px #000000;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Inconsolata', monospace;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+
+    input::placeholder {
+        color: #3a3b3bd7;
+
+    }
+
+    .input-control input:focus {
+        outline: 0;
+    }
+
+    .input-control.success input {
+        border-color: #0bf876;
+    }
+
+    .input-control.error input {
+        border-color: #f80000;
+    }
+
+    .fa-solid {
+        padding-right: 10px;
+        font-size: 20px;
+        color: #f5f4f6;
+    }
+
+    p {
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+    a {
+        font-family: 'Inconsolata', monospace;
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .home-view {
+        display: flex;
+        background-color: #868484c8;
+        border-radius: 20px;
+        width: 80rem;
+        height: 38rem;
+    }
+
+    .homeview--nav {
+        display: flex;
+        color: #ff0000;
+        justify-content: flex-end;
+    }
+
 }
-
-.register-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    background-color: #070d4ab5;
-    height: 300px;
-    width: 350px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 29px -12px #000000bf;
-    justify-content: space-around;
-}
-
-.link {
-    padding: 20px;
-    font-size: 12px;
-}
-
-.button-login,
-.button-register {
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #1f0a7b;
-    color: #fefefe;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-}
-
-.button-login:hover,
-.button-register:hover {
-    background-color: #523db1;
-    color: #fefefe;
-}
-
-.title {
-    font-family: 'Itim', cursive;
-    font-family: 'Press Start 2P', cursive;
-    font-style: bold;
-    color: #d8d8da;
-    padding: 15px 15px;
-}
-
-input {
-    width: 230px;
-    outline: none;
-    border: none;
-    color: #000000;
-    border-bottom: solid 1px #000000;
-    border-radius: 5px;
-    font-size: 15px;
-    font-family: 'Inconsolata', monospace;
-    margin-bottom: 20px;
-    padding: 5px;
-}
-
-input::placeholder {
-    color: #3a3b3bd7;
-
-}
-
-.input-control input:focus {
-    outline: 0;
-}
-
-.input-control.success input {
-    border-color: #0bf876;
-}
-
-.input-control.error input {
-    border-color: #f80000;
-}
-
-.fa-solid {
-    padding-right: 10px;
-    font-size: 20px;
-    color: #f5f4f6;
-}
-
-p {
-    font-family: 'Inconsolata', monospace;
-    font-size: 13px;
-    color: #ffffff;
-}
-
-a {
-    font-family: 'Inconsolata', monospace;
-    font-size: 15px;
-    color: #ffffff;
-}
-
-.home-view {
-    display: flex;
-    background-color: #868484c8;
-    border-radius: 20px;
-    width: 80rem;
-    height: 38rem;
-}
-
-.homeview--nav {
-    display: flex;
-    color: #ff0000;
-    justify-content: flex-end;
-}
-
-/*
-.nav-a {
-    border: none;
-    background-color: #9e9e9b;
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-
-.nav-a:hover {
-    border: none;
-    background-color: #000dff;
-    color: #ffffffc8;
-}
-
-.nav-a:active {
-    border: none;
-    background-color: #000000;
-    color: #ffffffc8;
-}
-
-.nav-a-account {
-    border: none;
-    background-color: #ffff00;
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-
-.nav-a-login {
-    border: none;
-    background-color: #ff00fb;
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-*/
