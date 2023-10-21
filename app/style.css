@@ -11,7 +11,7 @@
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        background-image: url(//app/background/background-movil.jpg);
+        background-image: url(./background/background-pc.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -148,7 +148,7 @@
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        background-image: url(//app/background/background-pc.jpg);
+        background-image: url(./background/background-movil.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
