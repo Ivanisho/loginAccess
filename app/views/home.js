@@ -146,13 +146,15 @@ function renderPosts() {
         article.setAttribute('class', 'post')
 
         var h2 = document.createElement('h2')
+        h2.setAttribute('class', 'post-author')
         h2.innerText = post.author
 
         var img = document.createElement('img')
-        img.setAttribute('class', 'post-image')
+        img.setAttribute('class','post-image')
         img.src = post.image
 
         var p = document.createElement('p')
+        p.setAttribute('class','post-description')
         p.innerText = post.text
 
         article.append(h2, img, p)
